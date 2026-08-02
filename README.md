@@ -116,6 +116,7 @@ or repairmen. It is of not much use to general public.
 * [Datasheets](datasheets/)
 * [Firmware dumps](dumps/)
 * [Firmware reflashers](reflashers/)
+* [Nikon SDKs](sdks/)
 
 ## Acknowledgements
 
