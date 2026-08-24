@@ -11,7 +11,7 @@ DF17811 0x4A118 0x0041FFFF 0x00FFFFFF                         # READ BUFFER - al
 DF17811 0x2EFA2 0x6B01FFE6 0x6B01FFE0                         # Change MSW19 (Rear Photointerrupter) to read MSW5 (Centre Sprocket)
 DF17811 0x31C44 0x6B00FFE6 0x6B00FFE0                         # Change MSW19 (Rear Photointerrupter) to read MSW5 (Centre Sprocket)
 DF17811 0x33080 0x6B06FFE6 0x6B06FFE0                         # Change MSW19 (Rear Photointerrupter) to read MSW5 (Centre Sprocket)
-DF17811 0x2A20C 0xA80147126868A842470C 0x6868A8044204F80568E8 # Rewrite adapter ID 4 (SA-21) to 5 (SA-30) -> mov @0x400773,r0l ; cmp.b #4,r0l ; bne skip ; mov.b #5,r0l ; store
+DF17811 0x2A20C 0xA80147126868A842470C 0x6868A8044204F80568E8 # Rewrite adapter ID 4 (SA-21) to 5 (SA-30)
 
 
 # Coolscan LS-40
